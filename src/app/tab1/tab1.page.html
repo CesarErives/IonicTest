@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Users
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Users</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container"> 
+  <ion-list>
+    <ion-item button [routerLink]="['/dmw']">
+      <ion-avatar>
+        <img src="https://www.fastfoodcalories.com/wp-content/uploads/2019/04/The-Double-Meat-Whataburger.jpg">
+      </ion-avatar>
+      <ion-label>
+        Double Meat Whataburger
+      </ion-label>
+    </ion-item>
+
+
+      <ion-item button [routerLink]="['/bcn']">
+        <ion-avatar>
+          <img src="http://wendysmx.net/imgmenu/20181031050433.jpg">
+        </ion-avatar>
+        <ion-label>
+          Baconator
+        </ion-label>
+      </ion-item>
+
+      <ion-item button [routerLink]="['/qpc']">
+        <ion-avatar>
+          <img src="https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Quarter-Pounder-with-Cheese-1:1-3-product-tile-desktop?wid=829&hei=515&dpr=off">
+        </ion-avatar>
+        <ion-label>
+          Quarter Pounder with Cheese
+        </ion-label>
+      </ion-item>
+
+</ion-list>
+  </div>
+
+</ion-content>
